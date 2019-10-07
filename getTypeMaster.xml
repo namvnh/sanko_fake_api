@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
   <soap12:Body>
-    <getTypeMasterXMLResponse xmlns="http://sanko-asp.jp/api/service/">
+    <getTypeMasterResponse xmlns="http://sanko-asp.jp/api/service/">
       <getTypeMasterResult>
         <rtiType rtiTypeId="101" rtiTypeKubun="1" boxTypeName="T-11LX" />
         <rtiType rtiTypeId="" rtiTypeKubun="1" boxTypeName="" />
         <rtiType rtiTypeId="" rtiTypeKubun="2" boxTypeName="" />
       </getTypeMasterResult>
-    </getTypeMasterXMLResponse>
+    </getTypeMasterResponse>
   </soap12:Body>
 </soap12:Envelope>
