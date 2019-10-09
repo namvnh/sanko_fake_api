@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<warehouseMaster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <warehouseList>
+    <warehouse rtiTypeId="101" count="3000" />
+    <warehouse rtiTypeId="102" count="1000" />
+    <warehouse rtiTypeId="301" count="50" />
+  </warehouseList>
+  <destination value="〇〇株式会社" />
+</warehouseMaster>
