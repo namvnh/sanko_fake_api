@@ -1,10 +1,16 @@
-<?xml version="1.0"?>
-<combineMaster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <combineList>
-    <combine paletteCode="330DB4CF6D00196098A67801" uniqueCode="330DB4CF6D00326098A67801" rtiTypeId="201" baseCount="250" />
-    <combine paletteCode="330DB4CF6D00196098A67801" uniqueCode="330DB4CF6D00326098A67802" rtiTypeId="201" baseCount="250" />
-    <combine paletteCode="330DB4CF6D00196098A67801" uniqueCode="330DB4CF6D00326098A67803" rtiTypeId="201" baseCount="250" />
-    <combine paletteCode="330DB4CF6D00196098A67801" uniqueCode="330DB4CF6D00326098A67804" rtiTypeId="201" baseCount="250" />
-    <combine paletteCode="330DB4CF6D00196098A67801" uniqueCode="330DB4CF6D00326098A67805" rtiTypeId="201" baseCount="250" />
-  </combineList>
-</combineMaster>
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <soap12:Body>
+    <getCombineMasterResponse xmlns="http://sanko-asp.jp/api/service/">
+      <getCombineMasterResult>
+        <combineList>
+          <combine paletteCode="330DB4CF6D00196098A67801" uniqueCode="330DB4CF6D00326098A67801" rtiTypeId="201" baseCount="250" />
+          <combine paletteCode="330DB4CF6D00196098A67801" uniqueCode="330DB4CF6D00326098A67802" rtiTypeId="201" baseCount="250" />
+          <combine paletteCode="330DB4CF6D00196098A67801" uniqueCode="330DB4CF6D00326098A67803" rtiTypeId="201" baseCount="250" />
+          <combine paletteCode="330DB4CF6D00196098A67801" uniqueCode="330DB4CF6D00326098A67804" rtiTypeId="201" baseCount="250" />
+          <combine paletteCode="330DB4CF6D00196098A67801" uniqueCode="330DB4CF6D00326098A67805" rtiTypeId="201" baseCount="250" />
+        </combineList>
+      </getCombineMasterResult>
+    </getCombineMasterResponse>
+  </soap12:Body>
+</soap12:Envelope>
