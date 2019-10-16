@@ -1,9 +1,16 @@
-<?xml version="1.0"?>
-<warehouseMaster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <warehouseList>
-    <warehouse rtiTypeId="101" count="3000" />
-    <warehouse rtiTypeId="102" count="1000" />
-    <warehouse rtiTypeId="301" count="50" />
-  </warehouseList>
-  <destination value="〇〇株式会社" />
-</warehouseMaster>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <getWarehouseMasterResponse xmlns="http://sanko-asp.jp/api/service/">
+            <getWarehouseMasterResult>
+                <warehouseList>
+                    <warehouse rtiTypeId="101" count="3" />
+                    <warehouse rtiTypeId="102" count="4" />
+                    <warehouse rtiTypeId="103" count="3" />
+                </warehouseList>
+                <destination value="三甲リース　MFV teset" />
+            </getWarehouseMasterResult>
+        </getWarehouseMasterResponse>
+    </soap:Body>
+</soap:Envelope>
