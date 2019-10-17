@@ -1,0 +1,28 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <getTanaMasterResponse xmlns="http://sanko-asp.jp/api/service/">
+            <getTanaMasterResult>
+                <tanaList>
+                    <tana uniqueCode="330DB4CF6D00196098A67801" rtiTypeId="101" />
+                    <tana uniqueCode="330DB4CF6D00196098A67802" rtiTypeId="101" />
+                    <tana uniqueCode="330DB4CF6D00196098A67803" rtiTypeId="101" />
+                    <tana uniqueCode="330DB4CF6D00196098A67804" rtiTypeId="101" />
+                    <tana uniqueCode="330DB4CF6D00196098A67805" rtiTypeId="101" />
+                    <tana uniqueCode="330DB4CF6D00196098A67806" rtiTypeId="101" />
+                    <tana uniqueCode="330DB4CF6D0019A098A67809" rtiTypeId="102" />
+                    <tana uniqueCode="330DB4CF6D0019A098A67808" rtiTypeId="102" />
+                    <tana uniqueCode="330DB4CF6D0019A098A67807" rtiTypeId="102" />
+                    <tana uniqueCode="330DB4CF6D0019E098A67801" rtiTypeId="103" />
+                    <tana uniqueCode="330DB4CF6D0019E098A67802" rtiTypeId="103" />
+                    <tana uniqueCode="330DB4CF6D0019E098A67803" rtiTypeId="103" />
+                    <tana uniqueCode="330DB4CF6D0019E098A67804" rtiTypeId="103" />
+                    <tana uniqueCode="330DB4CF6D001A2098A67809" rtiTypeId="104" />
+                    <tana uniqueCode="330DB4CF6D001A6098A67808" rtiTypeId="105" />
+                    <tana uniqueCode="330DB4CF6D001AA098A67807" rtiTypeId="106" />
+                </tanaList>
+            </getTanaMasterResult>
+        </getTanaMasterResponse>
+    </soap:Body>
+</soap:Envelope>
