@@ -7,7 +7,7 @@
                 <warehouseList>
                     <warehouse rtiTypeId="101" count="3" />
                     <warehouse rtiTypeId="102" count="4" />
-                    <warehouse rtiTypeId="103" count="3" />
+                    <warehouse rtiTypeId="201" count="3" />
                 </warehouseList>
                 <destination value="三甲リース　MFV teset super longgggggggggggggggggggggggggggggggggggggggggggggggggggggggg" />
             </getWarehouseMasterResult>
